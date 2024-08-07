@@ -1,0 +1,75 @@
+.contenedor h1 {
+    text-shadow: 0px 0px 20px rgb(192, 237, 255);
+    font-size: 70px;
+}
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #111827;
+    color:aliceblue;
+    margin: auto;
+    padding: auto;
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 16px;
+}
+
+.contador{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.contador p {
+    min-width: 100px;
+    text-align: center;
+}
+.contador button {
+    transition: 250ms;
+    font-size: 25px;
+    border: 3px solid transparent;
+    padding: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(192, 237, 255);
+    border-radius: 7px;
+    cursor: pointer;
+    
+}
+.contador button:hover {
+    box-shadow: 0px 0px 20px 5px rgb(192, 237, 255);
+    border: 3px solid  rgb(148, 220, 249);
+
+} 
+.contador h2 {
+    font-size: 50px;
+}
+
+.reset{
+    background-color: rgb(239 68 68); 
+    border-radius: 8px;
+    width: 100%;
+    max-width: 300px;
+    padding: 8px;
+    border: none;
+    margin-bottom: 20px;
+    transition: 199.98ms;
+}
+.reset:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+@media (max-width:450px){
+   .contenedor h1 {
+        font-size: 47px;
+    }
+}
+
+.texto-irrelevante{
+    color: #aeaeae;
+}
